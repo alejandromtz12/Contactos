@@ -47,8 +47,8 @@ public class VistaDatos extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick (View v){
-                Intent intent = new Intent(VistaDatos.this,MainActivity.class);
-                startActivity(intent);
+
+                finish();
             }
         });
 
